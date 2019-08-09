@@ -1,0 +1,38 @@
+#Teste DevOPs
+# Maven
+/target
+
+# Node
+/node
+/node_modules
+
+# Minified Resources
+/src/main/webapp/resources/min
+
+#logback
+/src/main/resources/logback.xml
+
+# Netbeans
+nb-configuration.xml
+nbactions.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~*
