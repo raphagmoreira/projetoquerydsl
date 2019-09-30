@@ -7,6 +7,9 @@ import br.com.querydsl.domain.query.Sorter;
 import br.com.querydsl.domain.query.impl.PessoaFilter;
 import br.com.querydsl.domain.repository.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -35,6 +38,18 @@ public class PessoaService implements Serializable {
                 .build();
 
         return pessoaRepository.find(query);
+    }
+
+    public Page<Pessoa> findPage(PessoaFilter pessoaFilter,
+                                 Pageable pageable) {
+        //Constrói a query para a entidade Pessoa
+        final Query<Pessoa> query = Query.<Pessoa>builder()
+                .filter(pessoaFilter)
+                .limit(Long.valueOf(pageable.getPageSize()))
+                .page(Long.valueOf(pageable.getOffset()))
+                .build();
+
+        return new PageImpl<>(pessoaRepository.find(query), pageable, pessoaRepository.count(query));
     }
 
     public Pessoa findById(Long id) {

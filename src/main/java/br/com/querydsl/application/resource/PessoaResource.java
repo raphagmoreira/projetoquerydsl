@@ -6,6 +6,8 @@ import br.com.querydsl.domain.query.Sorter;
 import br.com.querydsl.domain.query.impl.PessoaFilter;
 import br.com.querydsl.domain.service.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -29,6 +31,14 @@ public class PessoaResource {
         return ResponseEntity.ok(
                 pessoaService.find(pessoaFilter, sortProperty, sortDirection, page)
         );
+    }
+
+    @GetMapping(value = "/page", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Page<Pessoa>> findPageble(@QueryParam PessoaFilter pessoaFilter,
+                                                    Pageable pageable) {
+
+        Page<Pessoa> pessoas = pessoaService.findPage(pessoaFilter, pageable);
+        return ResponseEntity.ok(pessoas);
     }
 
     @GetMapping(value = "/{idPessoa}", produces = MediaType.APPLICATION_JSON_VALUE)
