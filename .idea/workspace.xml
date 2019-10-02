@@ -2,31 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea21b77-7221-4ab6-86e5-2ea505530c03" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/enums/ErrorsEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/query/impl/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/UserJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/security/filter/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/security/service/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/security/service/TokenAuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/security/service/impl/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/security/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projetoquerydsl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetoquerydsl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/PessoaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/PessoaResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/service/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/service/PessoaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/WebConfiguration" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-1.0.0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-1.0.0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/application/resource/PessoaResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/application/resource/PessoaResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/JpaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/JpaConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/LiquibaseConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/LiquibaseConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/WebConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/WebConfiguration$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/QPessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/QPessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/exception/GenericErrorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/exception/GenericErrorException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query$QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query$QueryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$SorterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$SorterBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/impl/PessoaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/impl/PessoaFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/repository/Repository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/service/PessoaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/service/PessoaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/AbstractJpaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/AbstractJpaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/WebConfiguration$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/WebConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/db.changelog-1.0.0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/db.changelog-1.0.0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,15 +66,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.querydsl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.querydsl.domain.service" />
+      <recent name="br.com.querydsl.domain.query.impl" />
       <recent name="br.com.querydsl.infra.persistence.jpa.repository" />
       <recent name="br.com.querydsl.domain.repository" />
+      <recent name="br.com.querydsl.domain.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Rapha\Documents\Java\projetoquerydsl\src\main\resources" />
@@ -271,7 +280,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Rapha\AppData\Roaming\Subversion</configuration>
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -286,7 +295,9 @@
       <workItem from="1566507470139" duration="842000" />
       <workItem from="1568228583673" duration="98000" />
       <workItem from="1568296561146" duration="3521000" />
-      <workItem from="1569849923435" duration="3042000" />
+      <workItem from="1569849923435" duration="5305000" />
+      <workItem from="1569948454454" duration="5270000" />
+      <workItem from="1570015200522" duration="10840000" />
     </task>
     <servers />
   </component>
@@ -298,7 +309,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
