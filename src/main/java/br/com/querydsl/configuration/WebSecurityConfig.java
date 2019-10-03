@@ -39,11 +39,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
 
         httpSecurity.headers().frameOptions().disable();
         httpSecurity.cors().and().csrf().disable().authorizeRequests()
-                .antMatchers(HttpMethod.GET, "/api/pessoas/page").permitAll()
-                .antMatchers(HttpMethod.GET, "/api/pessoas/**").authenticated()
-                .antMatchers(HttpMethod.GET, "/api/usuarios/page").permitAll()
                 .antMatchers(HttpMethod.POST, "/api/usuarios/login").permitAll()
-                .antMatchers(HttpMethod.GET, "/api/usuarios/**").authenticated()
+                .antMatchers(HttpMethod.GET, "/api/**").authenticated()
+                .antMatchers(HttpMethod.POST, "/api/**").authenticated()
+                .antMatchers(HttpMethod.DELETE, "/api/**").authenticated()
+                .antMatchers(HttpMethod.PUT, "/api/**").authenticated()
                 .and()
                 .addFilterBefore(new JWTAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
 
