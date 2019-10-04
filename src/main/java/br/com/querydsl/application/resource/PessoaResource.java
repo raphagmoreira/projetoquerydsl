@@ -41,6 +41,13 @@ public class PessoaResource {
         return ResponseEntity.ok(pessoas);
     }
 
+    @GetMapping(value = "/subselect", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<Pessoa>> findPageble() {
+
+        List<Pessoa> pessoas = pessoaService.findPessoasSubQuery();
+        return ResponseEntity.ok(pessoas);
+    }
+
     @GetMapping(value = "/{idPessoa}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Pessoa> findById(@PathVariable("idPessoa") final Long idPessoa) {
         return ResponseEntity.ok(pessoaService.findById(idPessoa));

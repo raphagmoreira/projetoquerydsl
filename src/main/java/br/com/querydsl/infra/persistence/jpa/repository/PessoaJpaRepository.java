@@ -6,6 +6,7 @@ import br.com.querydsl.domain.query.Query;
 import br.com.querydsl.domain.query.impl.PessoaFilter;
 import br.com.querydsl.domain.repository.PessoaRepository;
 import com.querydsl.core.types.dsl.PathBuilder;
+import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.apache.commons.lang.StringUtils;
@@ -80,5 +81,50 @@ public class PessoaJpaRepository extends AbstractJpaRepository<Pessoa, Long> imp
     public long count(Query<Pessoa> query) {
         //Utilizado para paginar
         return this.createQuery(query, Boolean.FALSE).fetchCount();
+    }
+
+    @Override
+    public List<Pessoa> findPessoasSubQuery() {
+        QPessoa qPessoa = QPessoa.pessoa;
+
+        //Para utilizar o mesmo objeto na query, e preciso instanciar passando um nome diferente no construtor
+        QPessoa qPessoa1 = new QPessoa("pessoaID");
+        QPessoa qPessoa2 = new QPessoa("pessoaNome");
+
+        return new JPAQueryFactory(entityManager)
+                .select(
+                        QPessoa.create(
+                                JPAExpressions
+                                        .select(
+                                                qPessoa1.id
+                                        )
+                                        .from(qPessoa1)
+                                        .where(qPessoa1.eq(qPessoa)),
+                                JPAExpressions
+                                        .select(
+                                                qPessoa2.nome
+                                        )
+                                        .from(qPessoa2)
+                                        .where(qPessoa2.eq(qPessoa))
+                        )
+                )
+                .from(qPessoa)
+                .fetch();
+    }
+
+    @Override
+    public List<Pessoa> findPessoasUnion() {
+        QPessoa qPessoa = QPessoa.pessoa;
+        QPessoa qPessoa1 = QPessoa.pessoa;
+
+        return new JPAQueryFactory(entityManager)
+                .select(
+                        QPessoa.create(
+                                qPessoa.id,
+                                qPessoa.nome
+                        )
+                )
+                .from(qPessoa)
+                .fetch();
     }
 }

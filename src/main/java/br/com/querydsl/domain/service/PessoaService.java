@@ -56,6 +56,10 @@ public class PessoaService implements Serializable {
         return pessoaRepository.findById(id).orElseThrow(EntityNotFoundException::new);
     }
 
+    public List<Pessoa> findPessoasSubQuery() {
+        return pessoaRepository.findPessoasSubQuery();
+    }
+
     @Transactional
     public void create(Pessoa pessoa) {
         pessoaRepository.create(pessoa);
