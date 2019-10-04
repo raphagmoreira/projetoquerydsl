@@ -2,14 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea21b77-7221-4ab6-86e5-2ea505530c03" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetoquerydsl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetoquerydsl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/application/resource/PessoaResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/application/resource/PessoaResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/JpaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/JpaConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/LiquibaseConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/configuration/LiquibaseConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/QPessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/entity/QPessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/exception/GenericErrorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/exception/GenericErrorException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query$QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query$QueryBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$SorterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter$SorterBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/Sorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/impl/PessoaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/query/impl/PessoaFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/repository/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/service/PessoaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/service/PessoaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/AbstractJpaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/AbstractJpaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,15 +71,26 @@
   <component name="ProjectId" id="1RYhQWbGRB7qcBDZlkMFSbMeKag" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/docker" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/docker" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.querydsl" />
     </key>
@@ -250,6 +301,16 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>

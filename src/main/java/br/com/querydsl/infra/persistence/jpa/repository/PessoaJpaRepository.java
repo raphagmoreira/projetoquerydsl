@@ -67,10 +67,6 @@ public class PessoaJpaRepository extends AbstractJpaRepository<Pessoa, Long> imp
             }
 
             // page
-            /*if (Optional.ofNullable(query.getPage()).orElse(0L) > 0L) {
-                jpaQuery.offset(((query.getPage() - 1L) * query.getLimit()));
-            }*/
-
             jpaQuery.offset(query.getPage());
 
             // limit
