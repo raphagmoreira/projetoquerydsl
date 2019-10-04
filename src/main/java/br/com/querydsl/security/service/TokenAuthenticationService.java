@@ -2,6 +2,7 @@ package br.com.querydsl.security.service;
 
 import br.com.querydsl.domain.dto.TokenDTO;
 import io.jsonwebtoken.*;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
@@ -69,7 +70,7 @@ public class TokenAuthenticationService {
 
             }
 
-            if (user != null) {
+            if (StringUtils.isNotEmpty(user)) {
                 UsernamePasswordAuthenticationToken response = new UsernamePasswordAuthenticationToken(user, null, grantedAuthorities);
                 response.setDetails(id);
 
@@ -97,7 +98,7 @@ public class TokenAuthenticationService {
 
             String token = request.getHeader(HEADER_STRING);
 
-            if (token != null) {
+            if (StringUtils.isNotEmpty(token)) {
                 return getByToken(token);
             }
 
