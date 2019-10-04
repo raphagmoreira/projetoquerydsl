@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea21b77-7221-4ab6-86e5-2ea505530c03" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/docker/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/PessoaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/PessoaResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/repository/PessoaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/service/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/domain/service/PessoaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/application/resource/PessoaResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/application/resource/PessoaResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/repository/PessoaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/repository/PessoaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/service/PessoaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/domain/service/PessoaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/querydsl/infra/persistence/jpa/repository/PessoaJpaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,10 +81,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/docker" />
+      <recent name="$PROJECT_DIR$/target" />
       <recent name="C:\Users\Rapha\Documents\Java\projetoquerydsl\src\main\java\br\com\querydsl\configuration" />
       <recent name="C:\Users\Rapha\Documents\Java\projetoquerydsl\src\main\resources" />
       <recent name="C:\Users\Rapha\Documents\Java\projetoquerydsl\src\main\java\br\com\querydsl" />
-      <recent name="C:\Users\Rapha\Documents\Java\projetoquerydsl\src\main\java\br\com\querydsl\domain\exception" />
     </key>
   </component>
   <component name="RunDashboard">
