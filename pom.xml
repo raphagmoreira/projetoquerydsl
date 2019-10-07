@@ -152,6 +152,27 @@
                     </dependency>
                 </dependencies>
             </plugin>
+
+            <!-- Dockerfile -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <echo>Copiando Dockerfile...</echo>
+                                <copy file="${basedir}/src/main/docker/Dockerfile" tofile="${basedir}/target/Dockerfile"/>
+                            </tasks>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
