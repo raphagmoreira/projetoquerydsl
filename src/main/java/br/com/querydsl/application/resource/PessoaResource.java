@@ -5,6 +5,7 @@ import br.com.querydsl.domain.entity.Pessoa;
 import br.com.querydsl.domain.query.Sorter;
 import br.com.querydsl.domain.query.impl.PessoaFilter;
 import br.com.querydsl.domain.service.PessoaService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -24,6 +25,9 @@ public class PessoaResource {
     private PessoaService pessoaService;
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiOperation(value = "Retorna uma lista de pessoas",
+            notes = "O objeto retornado nao contém informações de paginação.",
+            response = Pessoa[].class)
     public ResponseEntity<List<Pessoa>> find(@QueryParam PessoaFilter pessoaFilter,
                                              @RequestParam(value = "sortBy", required = false) String sortProperty,
                                              @RequestParam(value = "sortDirection", required = false) Sorter.Direction sortDirection,
@@ -34,6 +38,9 @@ public class PessoaResource {
     }
 
     @GetMapping(value = "/page", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiOperation(value = "Retorna uma lista de pessoas paginada.",
+            notes = "O objeto retornado contém informações de paginação.",
+            response = Pessoa[].class)
     public ResponseEntity<Page<Pessoa>> findPageble(@QueryParam PessoaFilter pessoaFilter,
                                                     Pageable pageable) {
 

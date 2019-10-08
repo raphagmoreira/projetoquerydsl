@@ -3,12 +3,14 @@
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/exception/UserNotFoundException.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/configuration/WebConfiguration.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/query/impl/PessoaFilter.java
+/home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/application/resource/AuthenticationResource.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/exception/GenericErrorException.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/dto/TokenDTO.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/configuration/WebSecurityConfig.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/enums/ErrorsEnum.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/exception/IdNotNullException.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/service/UserService.java
+/home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/entity/Authentication.java
 /home/patricia/Projetos/projetoquerydsl/target/generated-sources/java/br/com/querydsl/domain/entity/QUser.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/repository/UserRepository.java
 /home/patricia/Projetos/projetoquerydsl/target/generated-sources/java/br/com/querydsl/domain/entity/QPessoa.java
@@ -28,10 +30,12 @@
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/security/service/impl/UserDetailsServiceImpl.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/configuration/LiquibaseConfiguration.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/application/resource/PessoaResource.java
+/home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/configuration/swagger/SwaggerConfiguration.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/entity/Pessoa.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/infra/persistence/jpa/repository/UserJpaRepository.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/configuration/JpaConfiguration.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/entity/User.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/security/service/impl/SecurityServiceImpl.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/security/service/SecurityService.java
+/home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/configuration/swagger/DocketFactory.java
 /home/patricia/Projetos/projetoquerydsl/src/main/java/br/com/querydsl/domain/repository/PessoaRepository.java

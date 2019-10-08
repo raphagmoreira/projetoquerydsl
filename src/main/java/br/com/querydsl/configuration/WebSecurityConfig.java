@@ -39,7 +39,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
 
         httpSecurity.headers().frameOptions().disable();
         httpSecurity.cors().and().csrf().disable().authorizeRequests()
-                .antMatchers(HttpMethod.POST, "/api/usuarios/login").permitAll()
+                .antMatchers(HttpMethod.POST, "/authentication").permitAll()
                 .antMatchers(HttpMethod.GET, "/api/**").authenticated()
                 .antMatchers(HttpMethod.POST, "/api/**").authenticated()
                 .antMatchers(HttpMethod.DELETE, "/api/**").authenticated()

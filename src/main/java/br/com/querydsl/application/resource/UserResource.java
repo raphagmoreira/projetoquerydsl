@@ -26,9 +26,6 @@ public class UserResource {
     @Autowired
     private UserService userService;
 
-    @Autowired
-    private SecurityService securityService;
-
     @GetMapping
     public ResponseEntity<List<User>> find(@QueryParam UserFilter userFilter,
                                            @RequestParam(value = "sortBy", required = false) String sortProperty,
@@ -50,13 +47,13 @@ public class UserResource {
 
     }
 
-    @PostMapping("/login")
+    /*@PostMapping("/login")
     public ResponseEntity<TokenDTO> login(@RequestBody User user, HttpServletRequest request) throws Exception {
         User userFind = userService.findByUser(user.getUser());
 
         return ResponseEntity.ok(
                 securityService.login(user.getUser(), user.getPassword(), userFind.getId())
         );
-    }
+    }*/
 
 }
