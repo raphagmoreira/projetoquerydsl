@@ -14,12 +14,12 @@ public class SwaggerConfiguration {
     private DocketFactory docketFactory;
 
     @Bean
-    public Docket api() {
+    public Docket authentication() {
         return docketFactory.createApi("Autenticacao", "/authentication/**", Boolean.FALSE);
     }
 
     @Bean
-    public Docket authentication() {
+    public Docket api() {
         return docketFactory.createApi("Api", "/api/**", Boolean.TRUE);
     }
 
