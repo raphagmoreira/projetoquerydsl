@@ -4,7 +4,6 @@
     <list default="true" id="4ea21b77-7221-4ab6-86e5-2ea505530c03" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -303,7 +302,7 @@
       <workItem from="1565311911609" duration="9205000" />
       <workItem from="1570140388753" duration="3254000" />
       <workItem from="1570449148850" duration="9960000" />
-      <workItem from="1570533396891" duration="2860000" />
+      <workItem from="1570533396891" duration="6702000" />
     </task>
     <servers />
   </component>
