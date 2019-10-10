@@ -1,6 +1,5 @@
 package br.com.querydsl.configuration.swagger;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import io.swagger.models.auth.In;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -16,12 +15,11 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-import static springfox.documentation.builders.PathSelectors.regex;
-
 @Component
 public class DocketFactory {
 
-    public Docket createApi(String groupName, String pathRecurso, Boolean authentication) {
+    @SuppressWarnings("unchecked")
+    Docket createApi(String groupName, String pathRecurso, Boolean authentication) {
         Set<String> retornoList = new HashSet();
         retornoList.add(MediaType.APPLICATION_JSON_VALUE);
 

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea21b77-7221-4ab6-86e5-2ea505530c03" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/br/com/querydsl/pessoa/PessoaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetoquerydsl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetoquerydsl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/swagger/DocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/swagger/DocketFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/br/com/querydsl/pessoa/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/br/com/querydsl/PessoaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -102,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PessoaTest">
+  <component name="RunManager" selected="JUnit.br.com.querydsl in projetoquerydsl">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -207,24 +204,26 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projetoquerydsl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.querydsl.pessoa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.querydsl.pessoa" />
-      <option name="MAIN_CLASS_NAME" value="br.com.querydsl.pessoa.PessoaTest" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="br.com.querydsl in projetoquerydsl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoquerydsl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.tests.pessoa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.querydsl" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,9 +297,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.br.com.querydsl in projetoquerydsl" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PessoaTest" />
+        <item itemvalue="JUnit.br.com.querydsl in projetoquerydsl" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +334,7 @@
       <workItem from="1570533396891" duration="19955000" />
       <workItem from="1570621789408" duration="1420000" />
       <workItem from="1570627746629" duration="7446000" />
-      <workItem from="1570706004265" duration="1518000" />
+      <workItem from="1570706004265" duration="6789000" />
     </task>
     <servers />
   </component>
@@ -354,93 +357,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>projetoquerydsl</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

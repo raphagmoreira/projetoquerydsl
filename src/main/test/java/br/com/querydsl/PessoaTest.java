@@ -1,6 +1,5 @@
-package br.com.querydsl.pessoa;
+package br.com.querydsl;
 
-import br.com.querydsl.Application;
 import br.com.querydsl.domain.entity.Pessoa;
 import br.com.querydsl.domain.query.impl.PessoaFilter;
 import br.com.querydsl.domain.service.PessoaService;
@@ -8,7 +7,6 @@ import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -21,7 +19,6 @@ import java.util.Optional;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
-@AutoConfigureMockMvc
 public class PessoaTest {
 
     @Autowired
