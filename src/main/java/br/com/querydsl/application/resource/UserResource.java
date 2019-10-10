@@ -47,13 +47,4 @@ public class UserResource {
 
     }
 
-    /*@PostMapping("/login")
-    public ResponseEntity<TokenDTO> login(@RequestBody User user, HttpServletRequest request) throws Exception {
-        User userFind = userService.findByUser(user.getUser());
-
-        return ResponseEntity.ok(
-                securityService.login(user.getUser(), user.getPassword(), userFind.getId())
-        );
-    }*/
-
 }

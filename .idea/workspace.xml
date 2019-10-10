@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea21b77-7221-4ab6-86e5-2ea505530c03" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/br/com/querydsl/pessoa/PessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/swagger/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/configuration/swagger/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetoquerydsl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetoquerydsl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/querydsl/application/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/projeto-querydsl-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PessoaTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -201,6 +207,22 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetoquerydsl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.querydsl.pessoa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.querydsl.pessoa" />
+      <option name="MAIN_CLASS_NAME" value="br.com.querydsl.pessoa.PessoaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -276,6 +298,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PessoaTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -301,7 +328,10 @@
       <workItem from="1565311911609" duration="9205000" />
       <workItem from="1570140388753" duration="3254000" />
       <workItem from="1570449148850" duration="9960000" />
-      <workItem from="1570533396891" duration="19853000" />
+      <workItem from="1570533396891" duration="19955000" />
+      <workItem from="1570621789408" duration="1420000" />
+      <workItem from="1570627746629" duration="7446000" />
+      <workItem from="1570706004265" duration="1518000" />
     </task>
     <servers />
   </component>
