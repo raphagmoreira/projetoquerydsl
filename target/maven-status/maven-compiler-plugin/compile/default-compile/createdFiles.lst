@@ -23,8 +23,8 @@ br/com/querydsl/application/resource/PessoaResource.class
 br/com/querydsl/security/service/SecurityService.class
 br/com/querydsl/Application.class
 br/com/querydsl/domain/query/Filter.class
-br/com/querydsl/domain/exception/GenericErrorException.class
 br/com/querydsl/security/service/TokenAuthenticationService.class
+br/com/querydsl/domain/exception/GenericErrorException.class
 br/com/querydsl/configuration/annotation/QueryParam.class
 br/com/querydsl/domain/repository/Repository.class
 br/com/querydsl/domain/dto/TokenDTO.class
@@ -36,8 +36,8 @@ br/com/querydsl/domain/exception/IdNullException.class
 br/com/querydsl/configuration/WebConfiguration.class
 br/com/querydsl/domain/entity/QUser.class
 br/com/querydsl/application/resource/UserResource.class
-br/com/querydsl/domain/entity/User.class
 br/com/querydsl/configuration/swagger/DocketFactory.class
+br/com/querydsl/domain/entity/User.class
 br/com/querydsl/domain/query/Sorter$SorterBuilder.class
 br/com/querydsl/infra/persistence/jpa/repository/AbstractJpaRepository.class
 br/com/querydsl/infra/persistence/jpa/repository/UserJpaRepository.class

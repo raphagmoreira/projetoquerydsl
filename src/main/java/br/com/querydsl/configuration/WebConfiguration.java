@@ -13,12 +13,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * Created by Rapha on 03/10/2019.
  */
 @Configuration
-public class WebConfiguration extends WebMvcConfigurerAdapter {
+public class WebConfiguration {
 
     /**
-     * Configura o Jackson.
+     * Configura o retorno do JSON.
      *
-     * @return
+     * @return objectMapper
      */
     @Bean
     public ObjectMapper objectMapper() {

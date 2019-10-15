@@ -1,13 +1,10 @@
 package br.com.querydsl.infra.persistence.jpa.repository;
 
 import br.com.querydsl.domain.entity.Pessoa;
-import br.com.querydsl.domain.entity.QPessoa;
 import br.com.querydsl.domain.entity.QUser;
 import br.com.querydsl.domain.entity.User;
 import br.com.querydsl.domain.query.Query;
-import br.com.querydsl.domain.query.impl.PessoaFilter;
 import br.com.querydsl.domain.query.impl.UserFilter;
-import br.com.querydsl.domain.repository.PessoaRepository;
 import br.com.querydsl.domain.repository.UserRepository;
 import com.querydsl.core.types.dsl.PathBuilder;
 import com.querydsl.jpa.impl.JPAQuery;
